@@ -1,0 +1,143 @@
+/* Default css styling*/
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the body, like the background and font for the overall page to take*/
+body {
+    background: linear-gradient(to bottom, #c1eaff, #1024ff);
+    font-family: Arial, sans-serif;
+}
+
+/* Main header base stylings*/
+header {
+    background-color: rgb(23, 32, 114);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* Styling the text within the header*/
+h1 { 
+    color:rgb(86, 233, 255);
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-shadow: 4px 4px 8px #db77ff;
+}
+
+/* Styling the image within the header*/
+header img {
+    max-width: 200px; 
+    height: auto; 
+    margin-left: 100px;
+    border-radius: 40px;
+    border: 5px solid rgb(170, 86, 255);
+}
+
+/* Helper styling */
+header h1 {
+    margin: 0; /* Remove default margin to avoid spacing issues */
+}
+
+
+/* Style the navigation menu */
+nav {
+    background-color: rgb(155, 240, 255);
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+/* Styling the anchors within the navigation bar*/
+nav a {
+    color: rgb(76, 15, 146);
+    text-decoration: none;
+    margin: 0 20px;
+    text-shadow: 1px 1px 2px #cb9bbf;
+    border: 2px solid rgb(155, 155, 155);
+    border-radius: 8px;
+
+
+}
+
+/*Default css styling*/
+section {
+    background-color: #c1eaff;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 5px solid rgb(170, 86, 255);
+    text-align: center;
+    display: inline-block;
+    width: calc(33.33% - 20px*2); 
+    box-sizing: border-box;
+    vertical-align: top; 
+    box-sizing: border-box;
+    box-shadow: 0 7px 7px rgb(236, 175, 255); 
+    border-radius: 20px; 
+}
+
+/* Style the headings within sections */
+section h2 {
+    font-size: 18px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+/* Style the columns within sections */
+section .column {
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid rgb(196, 117, 248);
+    text-align: center;
+    border-radius: 10px;
+}
+
+/* Styling the about me portion*/
+.about-me {
+    background-color: #c1eaff; 
+    border-radius: 8px;
+    border: 5px solid rgb(196, 117, 248);
+    padding: 10px; 
+    margin: 20px;
+    text-align: center; 
+}
+
+/* Styling the text within the about-me portion*/
+.about-me p {
+    font-size: 18px; 
+    color: rgb(61, 0, 173); 
+}
+
+/* Fish gif styling */
+#fish {
+    background-color: transparent; 
+    color: #fff; 
+    margin-top: 40; 
+    margin-bottom: 20;
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Customize the p element within the columns*/
+div.column-container p {
+    font-size: 16px;
+    color: rgb(13, 116, 102);
+}
+
+/* Footer styling*/
+footer {
+    background-color: rgb(16, 13, 162);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
